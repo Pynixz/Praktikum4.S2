@@ -11,10 +11,6 @@ Sebagai tugas praktikum: [4] Basis Data | Universitas Pelita Bangsa.
 
   > Membuat Tabel 1 khusus untuk pertanyaan Pegawai.
 
-  <p align="left">
-    <img src="/ss/Tabel1.jpg" width="500">
-  </p>
-
 ```sql
 CREATE TABLE IF NOT EXISTS pegawai (
     idpegawai VARCHAR(5),
