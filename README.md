@@ -39,10 +39,6 @@ VALUES
 
   > Membuat Tabel 1 khusus untuk pertanyaan Hewan.
 
-  <p align="left">
-    <img src="/ss/Tabel2.jpg" width="700">
-  </p>
-
 ```sql
 CREATE TABLE IF NOT EXISTS hewan (
     id VARCHAR(2),
@@ -83,10 +79,6 @@ SELECT * FROM pegawai WHERE tunjangan IS NULL;
 SELECT * FROM pegawai WHERE tunjangan IS NOT NULL;
 ```
 
-  <p align="left">
-    <img src="/ss/123T1.jpg" width="700">
-  </p>
-
 4. Tampilkan/hitung jumlah baris/record tabel pegawai:
 ```sql
 SELECT COUNT(*) AS jumlah_pegawai FROM pegawai;
@@ -112,10 +104,6 @@ SELECT MIN(gaji) AS gaji_terkecil FROM pegawai;
 SELECT MAX(gaji) AS gaji_terbesar FROM pegawai;
 ```
 
-  <p align="left">
-    <img src="/ss/456T1.jpg" width="700">
-  </p>
-
 ### Pertanyaan Tabel 2 (Hewan)
 
 1. Tampilkan jumlah hewan yang dimiliki setiap owner:
@@ -132,10 +120,6 @@ SELECT species, COUNT(*) AS jumlah_hewan FROM hewan GROUP BY species;
 ```sql
 SELECT sex, COUNT(*) AS jumlah_hewan FROM hewan GROUP BY sex;
 ```
-
-  <p align="left">
-    <img src="/ss/123T2.jpg" width="700">
-  </p>
 
 4. Tampilkan jumlah hewan berdasarkan spesies dan jenis kelamin:
 ```sql
@@ -157,10 +141,6 @@ FROM hewan
 WHERE sex IS NOT NULL 
 GROUP BY sex;
 ```
-
-  <p align="left">
-    <img src="/ss/456T2.jpg" width="700">
-  </p>
   
 ### Berikan Kesimpulan Anda:
 
